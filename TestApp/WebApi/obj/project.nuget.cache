@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "8GWEEirg3MY7X3FM/2g1B4tqwqes47CdNF/St767U/qHVVxMWbXHi5RyGvWzQzfQ5iMmzNG0YSR4GepCu06lmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PROSPECTA\\source\\repos\\hackerrank\\TestApp\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PROSPECTA\\.nuget\\packages\\newtonsoft.json\\3.5.8\\newtonsoft.json.3.5.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 3.5.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 3.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
